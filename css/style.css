@@ -1,0 +1,76 @@
+:root{
+    --btFume: rgba(0, 0, 0, 0.5);/* Fumê light dark */
+}
+
+
+.slide-texts {
+  background-color: var(--btFume); 
+  color: white; /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Arredondamento das bordas */
+}
+
+.alunos {
+  padding: 20px;
+  margin: 10px ;
+}
+
+.LinhaAlunos {
+    background-color: var(--btFume); 
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #000; /* Cor dos ícones */
+    font-size: 36px; /* Tamanho dos ícones */
+}
+
+.newsletter {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
